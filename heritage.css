@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+.banner{ 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/banner5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ .row{
+    display: flex;
+    justify-content: center;
+
+ }
+ .col{
+    padding: 10px 30px;
+ }
+ .col1{
+    padding-left: 100px;
+ }
+ h1{
+    color: #fff;
+    font-size: 80px;
+ }
+ p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+ }
+ .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s;
+    
+ }
+ .card1{
+    background-image: url(Images/benthota.jpg);
+ }
+ .card2{
+    background-image: url(Images/moragalla.jpg);
+ }
+ .card3{
+    background-image: url(Images/kande\ vihara.jpg);
+ }
+ .card4{
+    background-image: url(Images/Kalutara\ Bo.jpg);
+ }
+ .card5{
+    background-image: url(Images/madu\ gaga.jpg);
+ }
+ .card6{
+    background-image: url(Images/Avani.jpg);
+ }
+ .card7{
+    background-image: url(Images/club\ benthota.jpg);
+ }
+ .card8{
+    background-image: url(Images/Pahiyangala.jpg);
+ }
+ .card9{
+    background-image: url(Images/light\ house.jpg);
+ }
+ .card10{
+    background-image: url(Images/fishing.jpg);
+ }
+ .card:hover{
+    transform: translateY(-10px);
+ }
+ .col a,h2{
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow: 5px 5px 5px rgba(236, 177, 105, 0.39);
+    text-decoration:none;
+    text-align: center;
+ }

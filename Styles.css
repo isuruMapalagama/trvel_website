@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+.banner{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/banner5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 100%;
+    position: static ;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color: #fcf3f3;
+
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+} 
+.content p{
+    font-size: 40px;
+    margin: 5px ;
+    font-weight: 50;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px; 
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(236, 177, 105);
+    background: transparent;
+    color: #fcf3f3;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover{
+    border: none;
+    color: rgb(236, 177, 105);
+}
+ 

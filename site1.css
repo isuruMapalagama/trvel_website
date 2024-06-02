@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+/*for site1*/
+.banner1{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    display: flex;
+    max-width: 50%;
+    margin: 20px auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgba(236, 177, 105, 0.39);
+    box-shadow: 0 0 10px rgba(236, 177, 105, 0.39);
+    border-radius: 10px;
+}
+.left-side {
+    flex: 1;   
+}
+.right-side {
+    flex: 1;
+    margin-left: 20px; 
+}
+p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.right-side {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.image1{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+/* for site2*/
+.banner2{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* for site3*/
+.banner3{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* for site4*/
+.banner4{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site04.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* for site5*/
+.banner5{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site05.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* for site6*/
+.banner6{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site06.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* for site7*/
+.banner7{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site07.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* for site8*/
+.banner8{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site08.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* for site9*/
+.banner9{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site09.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ /*for site10*/
+.banner10{
+    height: 100vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.3),rgba(36, 33, 33, 0.3)),url(Images/site10.jpg);
+    background-size: cover;
+    background-position: center;
+}

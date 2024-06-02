@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+.banner{
+    /* height: 100vh;  */
+    width: 100vw;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.7),rgba(36, 33, 33, 0.3)),url(Images/banner5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    width: 100%;
+    position:static ;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color: #fcf3f3;
+}
+.heading h1{
+    font-size: 5vw;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 75px 4px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .column img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  /* .img{
+    border-radius: 5px;
+  }
+   */
